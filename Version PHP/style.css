@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: whitesmoke;
+}
+
+main {
+    margin: 0 auto;
+    padding: 0 15px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 3rem;
+    font-style: italic;
+    margin: 10px 0 30px;
+}
+
+input {
+    margin: 15px 0;
+    width: 50px;
+    height: 25px;
+    padding: 3px 6px;
+    background-color: white;
+}
+
+button {
+    width: 120px;
+    height: 30px;
+    border: none;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: darkblue;
+    color: whitesmoke;
+}
+
+#songbox {
+    width: fit-content;
+    height: fit-content;
+    border: solid slategray 2px;
+    margin: 15px auto;
+}
+
+.hidden {
+    display: none;
+}
+
+#song {
+    padding: 8px;
+    text-align: left;
+    background-color: lightskyblue
+}
+
+#blank {
+    padding: 8px;
+    text-align: left;
+    background-color: gainsboro
+}
+
+#alert {
+    padding: 8px;
+    text-align: left;
+    background-color: lightsalmon
+}
